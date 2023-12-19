@@ -1,5 +1,5 @@
 
-# Flexmoney-project
+# flexmoney-project
 
 ## This project is used to build an admission form for the Yoga Classes.
 
@@ -38,18 +38,32 @@ The project is organized into four main components:
  - Opening page with email and password fields. 
  - Submit button checks user login and payment status. 
  - Redirects users based on login and payment status.
- - Signup button redirects to the registration page. 
+ - Signup button redirects to the registration page.
+ 
+ <img width="658" alt="Screenshot_20221213_000522" src="https://github.com/Parthcode1005/FlexMoney-Assignment/blob/main/Images/Login.jpg?raw=true"> 
+ 
 2.  **Registration Page (`Registration.js`):** 
  - Form for users to provide details: Name, Email, Password, Phone, Age, Date, Batch Timings. 
  - Validates user input and age range (18-65). 
  - Registration button redirects to the payment page. 
+ 
+ <img width="658" alt="Screenshot_20221213_000522" src="https://github.com/Parthcode1005/FlexMoney-Assignment/blob/main/Images/Registration.jpg?raw=true"> 
+ 
 3.  **Payments Page (`Payment.js`):** 
  - Displays a congratulations message and user details.
  - Form for users to fill in card details: Card Number, Card Holder Name, Expiry Date, CVV code. 
  - Validates card details before allowing payment. 
  - Make Payment button redirects to the confirmation page. 
+
+
+ <img width="658" alt="Screenshot_20221213_000522" src="https://github.com/Parthcode1005/FlexMoney-Assignment/blob/main/Images/Payment.jpg?raw=true"> 
+ 
 4.  **Confirmation Page (`Confirmation.js`):**  
 - Displays a success message and additional user details after payment. - Fetches user details from the backend.
+
+
+ <img width="658" alt="Screenshot_20221213_000522" src="https://github.com/Parthcode1005/FlexMoney-Assignment/blob/main/Images/confirmation.jpg?raw=true"> 
+ 
  
  ## Frontend
 Project Structure
@@ -122,8 +136,5 @@ feesPaid: { type:  Boolean, default:  false },
 ## ER Diagram of my database
 
 
-<img width="658" alt="Screenshot_20221213_000522" src="https://user-images.githubusercontent.com/71181112/207162833-0dc6d654-22c7-4b87-b82c-9bd0e44e81e9.png">
+<img width="658" alt="Screenshot_20221213_000522" src="https://github.com/Parthcode1005/FlexMoney-Assignment/blob/main/Images/ER%20diagram.jpg?raw=true">
 
-
-
-<img width="735" alt="Screenshot_20221213_000812" src="https://user-images.githubusercontent.com/71181112/207162852-875aae52-cac3-4ad3-9e57-fcdd7ae0a111.png">
