@@ -1,0 +1,39 @@
+/* src/components/Confirmation.css */
+/* Add styles for the Confirmation component */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 20px;
+}
+
+h1,
+p {
+  text-align: left;
+}
+
+div {
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Add more styles as needed */
